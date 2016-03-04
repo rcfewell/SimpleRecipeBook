@@ -16,6 +16,7 @@
 @end
 
 @implementation ViewController
+@synthesize tableView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -44,6 +45,18 @@
     cell.textLabel.text = [recipes objectAtIndex:indexPath.row];
     return cell;
 }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"showRecipeDetail"])
+    {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        DetailedViewController *destViewController = [segue destinationViewController];
+        destViewController.recipeName = [recipes objectAtIndex:indexPath.row];
+        
+    }
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

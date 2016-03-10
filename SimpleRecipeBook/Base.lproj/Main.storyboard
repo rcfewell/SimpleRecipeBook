@@ -44,10 +44,19 @@
                     <navigationItem key="navigationItem" title="Recipes" id="Orw-rR-nLX"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="searchDisplayController" destination="Twa-xM-1bb" id="9XM-zU-QWO"/>
                         <outlet property="tableView" destination="jqC-EO-y7o" id="2MX-XZ-GHT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="Twa-xM-1bb">
+                    <connections>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="4km-gV-Yd5"/>
+                        <outlet property="searchContentsController" destination="vXZ-lx-hvc" id="yVQ-a5-wZR"/>
+                        <outlet property="searchResultsDataSource" destination="vXZ-lx-hvc" id="Bss-M9-w5x"/>
+                        <outlet property="searchResultsDelegate" destination="vXZ-lx-hvc" id="W56-mn-5OY"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="1545.5" y="377.5"/>
         </scene>

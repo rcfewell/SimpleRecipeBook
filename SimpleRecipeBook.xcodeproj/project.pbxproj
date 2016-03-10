@@ -15,6 +15,7 @@
 		4D96C6231C766E4B0099E708 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D96C6221C766E4B0099E708 /* Images.xcassets */; };
 		4D96C6261C766E4B0099E708 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D96C6241C766E4B0099E708 /* LaunchScreen.xib */; };
 		4D96C6321C766E510099E708 /* SimpleRecipeBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D96C6311C766E510099E708 /* SimpleRecipeBookTests.m */; };
+		6D7432BB1C91EBA5005EE6E2 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7432BA1C91EBA5005EE6E2 /* Recipe.m */; };
 		6DA1A96B1C8A0DF100FE4539 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA1A96A1C8A0DF100FE4539 /* DetailedViewController.m */; };
 		6DA1A96E1C8A165100FE4539 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA1A96D1C8A165100FE4539 /* AboutViewController.m */; };
 		6DA1A9711C8A184A00FE4539 /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DA1A96F1C8A184A00FE4539 /* about.jpg */; };
@@ -46,6 +47,8 @@
 		4D96C62B1C766E500099E708 /* SimpleRecipeBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRecipeBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D96C6301C766E500099E708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D96C6311C766E510099E708 /* SimpleRecipeBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRecipeBookTests.m; sourceTree = "<group>"; };
+		6D7432B91C91EBA5005EE6E2 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		6D7432BA1C91EBA5005EE6E2 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
 		6DA1A9691C8A0DF100FE4539 /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
 		6DA1A96A1C8A0DF100FE4539 /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
 		6DA1A96C1C8A165100FE4539 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				6DA1A96D1C8A165100FE4539 /* AboutViewController.m */,
 				6DA1A96F1C8A184A00FE4539 /* about.jpg */,
 				6DA1A9701C8A184A00FE4539 /* about.html */,
+				6D7432B91C91EBA5005EE6E2 /* Recipe.h */,
+				6D7432BA1C91EBA5005EE6E2 /* Recipe.m */,
 			);
 			path = SimpleRecipeBook;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DA1A96E1C8A165100FE4539 /* AboutViewController.m in Sources */,
+				6D7432BB1C91EBA5005EE6E2 /* Recipe.m in Sources */,
 				4D96C6181C766E480099E708 /* AppDelegate.m in Sources */,
 				4D96C61B1C766E4A0099E708 /* SimpleRecipeBook.xcdatamodeld in Sources */,
 				4D96C61E1C766E4A0099E708 /* ViewController.m in Sources */,
